@@ -2,15 +2,11 @@
   display: inline-block;
 }
 .dropdown button {
-  background-color: cadetblue;
-  cursor: pointer;
-  padding: 10px 10px;
+  padding: 12px 12px;
 }
-.dropdown a {
-  text-decoration: none;
-  display: block;
-  padding: 10px 10px;
-  background-color: #f2f2f2;
+.dropdown button:hover {
+  background-color: darksalmon;
+  cursor: pointer;
 }
 .dropdown .content {
   position: absolute;
@@ -20,4 +16,14 @@
 }
 .dropdown:hover .content {
   display: block;
+}
+.dropdown a {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+
+  background-color: #f2f2f2;
+}
+.dropdown a:hover {
+  background-color: darksalmon;
 }
